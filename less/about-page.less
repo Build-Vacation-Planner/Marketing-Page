@@ -1,0 +1,189 @@
+.middle-content {
+    background-image: url("../images/sunset.png");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    color: #F3F4F4;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 100px;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0 auto;
+    }
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    color: #F3F4F4;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20rem;
+    background-color: #111125;
+
+    .invite {
+        align-content: center;
+        border-radius: 2px;
+        width: 33.33%;
+        .body-styles;
+        margin-top: 70px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+    .plan {
+        align-content: center;
+        border-radius: 2px;
+        width: 33.33%;
+        .body-styles;
+        margin-top: 70px;
+        
+    }
+    
+    .travel {
+        align-content: center;
+        border-radius: 2px;
+        width: 33.33%;
+        .body-styles;
+        margin-top: 70px;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding-left: 20px;
+    }
+}
+
+img {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.team-photos {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.meet-team {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 22rem;
+    border-top: 1px solid white;
+    background-color: #111125;
+
+    h4 {
+        font-size: 24px;
+        font-family: 'Open Sans', sans-serif;
+        color: #F3F4F4;
+        text-align: center;
+    }
+
+    .member-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+    }
+
+    .member {
+        width: 14.28%;
+        height: 10rem;
+        padding: 15px;
+        text-align: center;
+    }
+}
+
+@media @tablet {
+    .bottom-content {
+        height: 32rem;
+    }
+
+    .meet-team {
+        height: 35rem;
+    }
+
+    .meet-team .member-container {
+        margin-top: 10px;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+
+        .member {
+            width: 10rem;
+            padding: 20px;
+        }
+    }
+}
+
+@media @mobile {
+    h1 {
+        display: flex;
+        text-align: center;
+    }
+
+    .bottom-content {
+        height: 50rem;
+        flex-direction: column;
+
+        .invite {
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 5rem;
+        }
+
+        .plan {
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 5rem;
+        }
+
+        .travel {
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 5rem;
+            padding: 0;
+        }
+    }
+
+    .meet-team {
+        height: 90rem;
+
+        .member-container {
+            flex-direction: column;
+            
+
+            .member {
+                width: 95%;
+                margin: 0 auto;
+                border-top: 1px solid #F3F4F4;
+            }
+        }
+    }
+}

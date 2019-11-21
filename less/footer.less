@@ -1,0 +1,50 @@
+footer {
+    nav {
+      font-family: Open Sans; //font mixin
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      display: flex; //flex align
+      align-items: center;
+      text-align: center;
+      justify-content: flex-start;
+      background-color: #111125;
+      border-top: 2px solid white;
+      a {
+        cursor: pointer;
+        font-size: 15px;
+        margin-right: 6%;
+        margin-left: 6%;
+        color: white;
+        &:hover {
+          border-bottom: 2px solid blue;
+        }
+      }
+    }
+  }
+
+  @media @mobile {
+      footer {
+          display: flex;
+          justify-content: space-evenly;
+
+          nav {
+              width: 100%;
+              justify-content: center;
+          }
+      }
+  }
+
+  @media @tablet {
+      footer {
+          display: flex;
+          justify-content: center;
+          align-content: center;
+
+          nav {
+              width: 100%;
+              justify-content: center;
+          }
+      }
+  }

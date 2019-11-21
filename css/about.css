@@ -35,7 +35,7 @@ border-bottom: 2px solid #0500FF;
     align-content: center;
     justify-content: center;
     width: 100%;
-    height: 30rem;
+    height: 40rem;
     color: #F3F4F4;
 }
 
@@ -46,56 +46,74 @@ h1 {
     margin: 0 auto;
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    color: #F3F4F4;
+    margin: 0 auto;
+}
+
 p {
     display: flex;
     justify-content: center;
+    line-height: 30px;
 }
 
 .bottom-content {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 30rem;
-    background-color: #111125;
+    height: 25rem;
     margin-top: 5px;
+    background-color: #111125;
 }
 
 .invite {
     align-content: center;
-    border: 2px solid #14142c;
     border-radius: 2px;
     width: 33.33%;
-    color: white;
-    margin: 5px;
+    color: #F3F4F4;
+    background-color: #111125;
+    margin-top: 70px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .plan {
-    border: 1px solid #14142c;
+    align-content: center;
     border-radius: 2px;
     width: 33.33%;
-    color: white;
-    margin: 5px;
+    color: #F3F4F4;
+    background-color: #111125;
+    margin-top: 70px;
+    
 }
 
 .travel {
-    border: 1px solid #14142c;
+    align-content: center;
     border-radius: 2px;
     width: 33.33%;
-    color: white;
-    margin: 5px;
+    color: #F3F4F4;
+    background-color: #111125;
+    margin-top: 70px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-left: 20px;
 }
 
-.invite:hover {
-    background-color: #ECEDF7;
-    color: #111125;
+img {
+    display: flex;
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
 }
 
-.plan:hover {
-    background-color: #ECEDF7;
-    color: #111125;
-}
-
-.travel:hover {
-    background-color: #ECEDF7;
-    color: #111125;
+.footer {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    width: 100%;
+    padding 10px;
+    background-color: white;
 }
